@@ -2,6 +2,8 @@
 
 ### Steps to start a spring project in netbeans IDE
 
+Registration and Login using Spring and JDBC as database
+
 1. File-> New Project-> Maven-> Web Application
 
 2. Inside Project Files open **pom.xml** 
