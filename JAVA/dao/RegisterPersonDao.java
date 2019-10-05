@@ -34,4 +34,10 @@ public class RegisterPersonDao extends DatabaseConn{
             return resultSet;
         }
     }
+    
+    public ResultSet getAllUsers()throws SQLException{
+        initializeDbConnection();
+        resultSet = smt.executeQuery("SELECT * FROM register");
+        return resultSet;
+    }
 }

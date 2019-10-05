@@ -8,7 +8,7 @@ import java.sql.Statement;
 import java.util.Properties;
 
 public class DatabaseConn {
-    protected static final String dbClassName = "com.mysql.jdbc.Driver";
+    protected static final String dbClassName = "com.mysql.cj.jdbc.Driver";
     protected static final String CONNECTION = "jdbc:mysql://127.0.0.1/spring";
     protected Connection connection = null;
     protected Statement smt = null;

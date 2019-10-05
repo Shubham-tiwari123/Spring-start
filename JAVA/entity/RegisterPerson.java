@@ -6,6 +6,15 @@ public class RegisterPerson {
     static private int programCode;
     static private String errorMsg;
 
+    public RegisterPerson() {
+    }
+
+    public RegisterPerson(String emailId, String password) {
+        this.emailId = emailId;
+        this.password = password;
+    }
+
+    
     public  String getErrorMsg() {
         return errorMsg;
     }
